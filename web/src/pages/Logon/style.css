@@ -1,0 +1,30 @@
+.logon-container {
+    width: 100%;
+    max-width: 1200px;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.logon-container #logo {
+    margin-bottom: 8rem;
+}
+
+.logon-container #heroes {
+    max-width: 100%;
+}
+
+.logon-container .form {
+    margin: 0 5rem 3rem;
+    width: 100%;
+    max-width: 300px;
+}
+
+.logon-container .form h1 {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 50px;
+}
