@@ -1,0 +1,70 @@
+.register-container {
+    width: 100%;
+    max-width: 1200px;
+    height: 100vh;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.register-container .content {
+    width: 100%;
+    max-width: 1000px;
+    background: #f0f0f0;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 8%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.register-container .content section {
+    display: flex;
+    flex-direction: column;
+    max-width: 380px;
+}
+
+.register-container .content section #logo {
+    width: 190px;
+    margin-bottom: 3rem;
+}
+
+.register-container .content section * {
+    margin: 1rem 0;
+}
+
+.register-container .content section h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 36px;
+    color: #13131A;
+}
+
+.register-container .content section p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    color: #737380;
+    text-align: justify;
+}
+
+.register-container .content form .cidade-estado {
+    display: inline-flex;
+}
+
+.register-container .content form .cidade-estado input + input {
+    margin-left: .4rem;
+}
+
+@media only screen and (max-width: 425px) {
+    .register-container .content section #logo {
+        margin: auto;
+    }
+}
